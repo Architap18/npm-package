@@ -7,9 +7,9 @@
     ".": "./src/index.js"
   },
   "scripts": {
-    "test": "node --test tests/validation.test.js tests/email.test.js tests/password.test.js tests/middleware.test.js tests/features.test.js",
-    "test:verbose": "node --test --reporter=spec tests/validation.test.js tests/email.test.js tests/password.test.js tests/middleware.test.js tests/features.test.js"
-  },
+  "test": "node --test tests/*.test.js",
+  "test:verbose": "node --test --reporter=spec tests/*.test.js"
+},
   "keywords": [
     "validation",
     "validator",
